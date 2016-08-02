@@ -8,7 +8,7 @@ import requests.packages.urllib3
 requests.packages.urllib3.disable_warnings()
 
 import requests
-r = requests.get('https://allthingsfpl.com/fantasy-footbal/opta-player-profile?player=p37265')
+r = requests.get('https://allthingsfpl.com/fantasy-football/opta-player-zones/?club%5B%5D=ARS&position%5B%5D=0&played=0&week=0&custom_from=&custom_to=&season=0')
 r.status_code
 
 import bs4
